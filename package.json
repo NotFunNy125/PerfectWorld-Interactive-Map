@@ -3,10 +3,18 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "main": "src/main.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "perfectworld.interactive.map.id",
+    "win": {
+      "target": "nsis"
+    }
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -19,6 +27,8 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
+    "electron": "^38.1.0",
+    "electron-builder": "^26.0.12",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",

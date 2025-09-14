@@ -18,9 +18,10 @@
   width: 100vh;
 }
 
-.filterLabel{
+.filterLabel {
     color: black;
     display: block;
+    font-family: sans-serif;
 }
 
 .filterCheckbox{
