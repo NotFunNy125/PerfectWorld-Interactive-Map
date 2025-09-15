@@ -8,11 +8,11 @@ export default class FilterView extends React.Component {
             filteredRessources: [] // only one variable
         };
     }
+    
 
     handleTierChange(tier, checked) {
         this.setState(prevState => {
             let newFiltered;
-
             if (checked) {
                 const toAdd = this.props.ressources.filter(r => r.tier === tier);
                 newFiltered = [...prevState.filteredRessources, ...toAdd.filter(r =>

@@ -145,7 +145,7 @@ export default class MapView extends React.Component {
                     wheelPxPerZoomLevel={120}
                     zoomAnimation={false}>
                     <ImageOverlay
-                        url="assets/Genesis_World_Map_HighRes.jpg"
+                        url="/assets/Genesis_World_Map_HighRes.jpg"
                         bounds={bounds}
                     />
                     {markerView}
