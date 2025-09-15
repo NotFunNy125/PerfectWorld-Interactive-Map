@@ -130,7 +130,7 @@ export default class MapView extends React.Component {
         }
 
         return (
-            <div>
+            <div id="mapInnerContainer">
                 <FilterView ressources={this.state.ressources} onFilterChange={this.props.mapActions.filterRessources.bind(this.props.mapActions)} />
                 <MapContainer
                     center={[900, 965]}

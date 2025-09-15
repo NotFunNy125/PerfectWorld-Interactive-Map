@@ -2,7 +2,7 @@
 <Project>
   <PropertyGroup>
     <PackageJsonName Condition="$(PackageJsonName) == ''">perfectworld-interactive-map</PackageJsonName>
-    <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://notfunny125.github.io/PerfectWorld-Interactive-Map/</PackageJsonHomepage>
+    <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://notfunny125.github.io/PerfectWorld-Interactive-Map-Website/</PackageJsonHomepage>
     <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">false</PackageJsonPrivate>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.1</PackageJsonVersion>
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
