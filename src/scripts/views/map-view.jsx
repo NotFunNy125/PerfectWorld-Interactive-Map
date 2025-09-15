@@ -48,7 +48,7 @@ export default class MapView extends React.Component {
     async extractRessources() {
         try {
             // get index.json (list of files)
-            const res = await fetch("/coordinates/index.json");
+            const res = await fetch("coordinates/index.json");
             const files = await res.json(); // e.g. ["file1.txt", "file2.txt"]
 
             const allCoords = [];
@@ -59,7 +59,7 @@ export default class MapView extends React.Component {
                 const name = fileNameWithoutExtension.split("-").slice(1).join("-");
 
                 // fetch coordinates file
-                const text = await fetch(`/coordinates/${file}`).then((res) => res.text());
+                const text = await fetch(`coordinates/${file}`).then((res) => res.text());
 
                 const matches = text.match(/\{[^}]+\}/g) || [];
 
@@ -68,7 +68,7 @@ export default class MapView extends React.Component {
                     const yMatch = m.match(/z:([\d.-]+)/);
 
                     const icon = new L.Icon({
-                        iconUrl: `/assets/Icons/${fileNameWithoutExtension}.png`,
+                        iconUrl: `assets/Icons/${fileNameWithoutExtension}.png`,
                         iconSize: [32, 32],
                         iconAnchor: [16, 32],
                         popupAnchor: [0, -32],
@@ -145,7 +145,7 @@ export default class MapView extends React.Component {
                     wheelPxPerZoomLevel={120}
                     zoomAnimation={false}>
                     <ImageOverlay
-                        url="/assets/Genesis_World_Map_HighRes.jpg"
+                        url="assets/Genesis_World_Map_HighRes.jpg"
                         bounds={bounds}
                     />
                     {markerView}

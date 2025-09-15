@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageJsonName Condition="$(PackageJsonName) == ''">perfectworld-interactive-map</PackageJsonName>
     <PackageJsonHomepage Condition="$(PackageJsonHomepage) == ''">https://notfunny125.github.io/PerfectWorld-Interactive-Map/</PackageJsonHomepage>
-    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">false</PackageJsonPrivate>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.1</PackageJsonVersion>
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
     <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
@@ -21,8 +21,6 @@
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^19.1.10</PackageJsonDevdependenciesTypesReact>
     <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^19.1.7</PackageJsonDevdependenciesTypesReactDom>
     <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^5.0.0</PackageJsonDevdependenciesVitejsPluginReact>
-    <PackageJsonDevdependenciesElectron Condition="$(PackageJsonDevdependenciesElectron) == ''">^38.1.0</PackageJsonDevdependenciesElectron>
-    <PackageJsonDevdependenciesElectronBuilder Condition="$(PackageJsonDevdependenciesElectronBuilder) == ''">^26.0.12</PackageJsonDevdependenciesElectronBuilder>
     <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.33.0</PackageJsonDevdependenciesEslint>
     <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^5.2.0</PackageJsonDevdependenciesEslintPluginReactHooks>
     <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">^0.4.20</PackageJsonDevdependenciesEslintPluginReactRefresh>
