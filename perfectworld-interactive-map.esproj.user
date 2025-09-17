@@ -7,7 +7,7 @@
   "type": "chrome",
   "request": "launch",
   "url": "http://localhost:62332",
-  "webRoot": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map"
+  "webRoot": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map"
 }</LaunchJsonTarget>
   </PropertyGroup>
 </Project>

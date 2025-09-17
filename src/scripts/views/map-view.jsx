@@ -8,16 +8,15 @@ import FilterView from "./filter-view.jsx";
 
 const bounds = [[0, 8192], [10240, 0]];
 const start = [0, 0]; // Pixel-Koordinaten Start
-const end = [10240, 7000];   // Pixel-Koordinaten Ende
+const end = [10240, 7000];   // Pixel-Koordinaten Ende Blaue Linie
 
 const Affine = {
-    A: 10.111348340026,
-    B: 0.111150387422,
-    C: -18.617286918161,
-
-    D: -0.019484192071,
-    E: -10.036338442396,
-    F: 11161.51385668231
+    A: 10.013597522073717,
+    B: 0.01649384439817278,
+    C: 80.2793679526668,
+    D: 0.0014287044919711889,
+    E: -10.016087537739823,
+    F: 11140.355818746006
 };
 
 export default class MapView extends React.Component {
@@ -135,9 +134,9 @@ export default class MapView extends React.Component {
             iconSize: [32, 32]
         });
         let markerView;
-        let testMarkerView=
+        let testMarkerView =
             (<div>
-                
+
                 {/*Oben Links*/}<Marker icon={redIcon} position={[9217, 1034]}></Marker>
 
                 {/*Da drunter Oben Links*/}<Marker icon={redIcon} position={[7702, 1270]}></Marker>
@@ -147,13 +146,13 @@ export default class MapView extends React.Component {
                 {/*Oben Rechts*/}<Marker icon={redIcon} position={[8794, 6734]}></Marker>
                 <Marker position={this.testFormel(663, 968)}></Marker>
 
-                <Marker position={this.testFormel(93,1010)}></Marker>
+                <Marker position={this.testFormel(93, 1010)}></Marker>
                 <Marker position={this.testFormel(667, 372)}></Marker>
                 <Marker position={this.testFormel(118, 859)}></Marker>
 
                 <Marker position={this.testFormel(448, 873)}></Marker>
 
-                
+
             </div>);
         if (this.state.filteredRessources !== null) {
             markerView = this.state.filteredRessources.map((ressource, i) => {
@@ -175,15 +174,15 @@ export default class MapView extends React.Component {
                             <FilterView ressources={this.state.ressources} onFilterChange={this.props.mapActions.filterRessources.bind(this.props.mapActions)} />
                         </div>
                     </div>
-                    <div className="overlay-container">
-                        <div className="overlay-item" id="tools" style={{ display: "flex", flexDirection: "column" }}>
-                            <label className="headline" style={{ marginBottom: 5 }}>Tools</label>
-                            <img className="clickable" src="assets/route.png" style={{ width: 45, height: 45 }} />
-                        </div>
-                    </div>
+                    {/*<div className="overlay-container">*/}
+                    {/*    <div className="overlay-item" id="tools" style={{ display: "flex", flexDirection: "column" }}>*/}
+                    {/*        <label className="headline" style={{ marginBottom: 5 }}>Tools</label>*/}
+                    {/*        <img className="clickable" src="assets/route.png" style={{ width: 45, height: 45 }} />*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
-                
-                
+
+
 
 
                 {/*<table className="overlay-container">*/}

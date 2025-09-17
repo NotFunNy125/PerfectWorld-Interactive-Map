@@ -1,1 +1,2 @@
 F:\PerfectWorld-Interactive-Map\PerfectWorld-Interactive-Map\obj\Debug\perfectworld-interactive-map.esproj.CoreCompileInputs.cache
+E:\Daten\PW_Recouces_Map\Version001PWInteractiveMap\PerfectWorld-Interactive-Map\obj\Debug\perfectworld-interactive-map.esproj.CoreCompileInputs.cache

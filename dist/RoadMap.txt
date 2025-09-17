@@ -1,0 +1,25 @@
+Funktionen:
+Filter
+	-Die Filter Box wird 1 Zeile klein gemacht wenn man die 5sek nicht benutzt, bei drüber howern / oder 1 Klick die Filterbox wieder groß.
+	-Icon Größe der Ressourcen mit slider skalierbar machen kleiner / Größer.
+
+Routen Zeit berechnen
+	Mit 8m/s und 11m/s Geschwindigekeit.
+	Ausbuddeln dauert zwischen 5 und 10 sek im Spiel.
+	Respawnzeit ist 10minuten
+	Man klickt sich die Nodes selber zusammen und es wird an der Seite oder in der Filterbox ein Zeit zusammen 	gerechnet, mit 8m/s oder 	11m/s Geschwindigkeit, wird eh nur geschätzt sein, weil man auch mal gegen Mobs 	kämpfen muss um an die Node zu kommen.
+	Route mit einem klick löschen können.
+
+Pflanzen hinzufügen auf der Main map
+	T1 bis T4
+
+
+Hölle hinzufügen
+	T5 Mats und T4, T5 Pflanzen
+Himmel hinzufühen
+	T5 Mats und T4, T5 Pflanzen
+
+User Profile 
+	Die Letzte angelegte Route wieder laden beim Aufrufen der Seite. Cookies(?)
+
+Donation Link mit PayPal einbauen.

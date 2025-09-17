@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\",
+  "WorkspaceRootPath": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|f:\\perfectworld-interactive-map\\perfectworld-interactive-map\\src\\scripts\\views\\map-view.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|solutionrelative:src\\scripts\\views\\map-view.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|e:\\daten\\pw_recouces_map\\version001pwinteractivemap\\perfectworld-interactive-map\\src\\scripts\\views\\map-view.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|solutionrelative:src\\scripts\\views\\map-view.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|f:\\perfectworld-interactive-map\\perfectworld-interactive-map\\src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|solutionrelative:src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|e:\\daten\\pw_recouces_map\\version001pwinteractivemap\\perfectworld-interactive-map\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|e:\\daten\\pw_recouces_map\\version001pwinteractivemap\\perfectworld-interactive-map\\src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|solutionrelative:src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|e:\\daten\\pw_recouces_map\\version001pwinteractivemap\\perfectworld-interactive-map\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EF97CCF-5440-CB39-2112-16BF561B9D29}|perfectworld-interactive-map.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package.json",
+              "DocumentMoniker": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T18:46:14.635Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T18:44:28.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "site.css",
-              "DocumentMoniker": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\site.css",
+              "DocumentMoniker": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\src\\site.css",
               "RelativeDocumentMoniker": "src\\site.css",
-              "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\site.css",
+              "ToolTip": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\src\\site.css",
               "RelativeToolTip": "src\\site.css",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-15T20:13:55.468Z"
+              "WhenOpened": "2025-09-15T20:13:55.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "map-view.jsx",
-              "DocumentMoniker": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\scripts\\views\\map-view.jsx",
+              "DocumentMoniker": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\src\\scripts\\views\\map-view.jsx",
               "RelativeDocumentMoniker": "src\\scripts\\views\\map-view.jsx",
-              "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\scripts\\views\\map-view.jsx",
+              "ToolTip": "E:\\Daten\\PW_Recouces_Map\\Version001PWInteractiveMap\\PerfectWorld-Interactive-Map\\src\\scripts\\views\\map-view.jsx",
               "RelativeToolTip": "src\\scripts\\views\\map-view.jsx",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-09-15T19:12:38.658Z",
               "EditorCaption": ""
