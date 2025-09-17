@@ -33,8 +33,9 @@ export default class MapStore extends Store {
         this.emitChange('changed');
     }
 
-    onSetCopiedMarker() {
-
+    onSetCopiedMarker(index) {
+        this.clickedMarker = index;
+        this.emitChange('changed');
     }
 
     onActionDispatched(action) {
@@ -47,7 +48,7 @@ export default class MapStore extends Store {
                 this.onFilterRessources(action.filteredRessources);
                 break;
             case actionIdentifier.map.setCopiedMarker:
-                this.onSetCopiedMarker();
+                this.onSetCopiedMarker(action.index);
                 break;
                 
         }

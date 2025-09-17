@@ -1,4 +1,4 @@
-.App{
+.App {
     font-family: sans-serif;
     text-align: center;
 }
@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 #root {
@@ -25,15 +26,63 @@
     font-family: sans-serif;
 }
 
-.filterCheckbox{
+.filterCheckbox {
     margin-right: 7px;
 }
 
-.leaflet-top, .leaflet-left{
+.leaflet-top, .leaflet-left {
     display: none;
 }
 
-#InnerFilterContainer{
+.overlay {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.overlay-container {
+    z-index: 401;
+    position: fixed;
+}
+
+.overlay-item {
+    background: rgba(255,255,255,0.6);
+    border-radius: 5px;
+    width: fit-content;
     padding: 20px;
-    margin: 0px;
+}
+
+#filters {
+    top: 20px;
+    left: 20px;
+}
+
+#tools {
+    top: 120px;
+    left: 20px;
+}
+
+label {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+img {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: default;
 }

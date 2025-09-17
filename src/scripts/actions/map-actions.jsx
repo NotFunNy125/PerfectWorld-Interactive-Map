@@ -18,9 +18,10 @@ export default class MapActions{
         });
     }
 
-    setCopiedMarker() {
+    setCopiedMarker(index) {
         this.dispatcher.dispatch({
-            type: actionIdentifier.map.setCopiedMarker
+            type: actionIdentifier.map.setCopiedMarker,
+            index: index
         });
     }
 }
