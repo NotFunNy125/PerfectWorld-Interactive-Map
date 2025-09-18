@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|f:\\perfectworld-interactive-map\\perfectworld-interactive-map\\src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|solutionrelative:src\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|f:\\perfectworld-interactive-map\\perfectworld-interactive-map\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|f:\\perfectworld-interactive-map\\perfectworld-interactive-map\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37386EF6-85C3-4E53-B7CE-1EB8F52884C6}|perfectworld-interactive-map.esproj|solutionrelative:.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launch.json",
+              "DocumentMoniker": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": ".vscode\\launch.json",
+              "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\.vscode\\launch.json",
+              "RelativeToolTip": ".vscode\\launch.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T19:13:52.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "package.json",
+              "DocumentMoniker": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T19:08:07.41Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,9 +62,10 @@
               "RelativeDocumentMoniker": "src\\site.css",
               "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\site.css",
               "RelativeToolTip": "src\\site.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-15T20:13:55.468Z"
+              "WhenOpened": "2025-09-15T20:13:55.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +75,7 @@
               "RelativeDocumentMoniker": "src\\scripts\\views\\map-view.jsx",
               "ToolTip": "F:\\PerfectWorld-Interactive-Map\\PerfectWorld-Interactive-Map\\src\\scripts\\views\\map-view.jsx",
               "RelativeToolTip": "src\\scripts\\views\\map-view.jsx",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAgwLEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-09-15T19:12:38.658Z",
               "EditorCaption": ""
