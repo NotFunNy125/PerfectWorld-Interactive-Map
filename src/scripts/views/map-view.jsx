@@ -7,8 +7,6 @@ import "../../site.css"
 import FilterView from "./filter-view.jsx";
 
 const bounds = [[0, 8192], [10240, 0]];
-const start = [0, 0]; // Pixel-Koordinaten Start
-const end = [10240, 7000];   // Pixel-Koordinaten Ende Blaue Linie
 
 const Affine = {
     A: 10.013597522073717,
@@ -129,31 +127,7 @@ export default class MapView extends React.Component {
     };
 
     render() {
-        const redIcon = new L.Icon({
-            iconUrl: "assets/red-location-pin.png",
-            iconSize: [32, 32]
-        });
         let markerView;
-        let testMarkerView =
-            (<div>
-
-                {/*Oben Links*/}<Marker icon={redIcon} position={[9217, 1034]}></Marker>
-
-                {/*Da drunter Oben Links*/}<Marker icon={redIcon} position={[7702, 1270]}></Marker>
-
-                {/*Unten Rechts*/}<Marker icon={redIcon} position={[2825, 6767]}></Marker>
-
-                {/*Oben Rechts*/}<Marker icon={redIcon} position={[8794, 6734]}></Marker>
-                <Marker position={this.testFormel(663, 968)}></Marker>
-
-                <Marker position={this.testFormel(93, 1010)}></Marker>
-                <Marker position={this.testFormel(667, 372)}></Marker>
-                <Marker position={this.testFormel(118, 859)}></Marker>
-
-                <Marker position={this.testFormel(448, 873)}></Marker>
-
-
-            </div>);
         if (this.state.filteredRessources !== null) {
             markerView = this.state.filteredRessources.map((ressource, i) => {
                 const [x, y] = this.gameToImageScaled(ressource.x, ressource.y);
@@ -216,10 +190,7 @@ export default class MapView extends React.Component {
                         bounds={bounds}
                     />
                     {markerView}
-                    {testMarkerView}
                     <ZoomControl position="bottomright" />
-
-                    <Polyline positions={[start, end]} />
                 </MapContainer>
             </div>
         );
